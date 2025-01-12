@@ -1,6 +1,12 @@
 
 # Node Cache Service
 
+[![Express](https://img.shields.io/badge/Express-4.18.2-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
+[![Node Cache](https://img.shields.io/badge/node--cache-5.1.2-brightgreen?style=flat-square)](https://www.npmjs.com/package/node-cache)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3.0-blue?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Nodemon](https://img.shields.io/badge/Nodemon-3.1.9-76D04B?style=flat-square&logo=nodemon&logoColor=white)](https://nodemon.io/)
+[![ts-node](https://img.shields.io/badge/ts--node-10.9.1-3178C6?style=flat-square)](https://typestrong.org/ts-node/)
+
 A lightweight and efficient caching solution built with Node.js and TypeScript using the `node-cache` package. This project provides an in-memory caching service to improve application performance by storing and reusing frequently accessed data.
 
 ## Overview
