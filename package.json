@@ -28,6 +28,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yourusername/node-cache.git"
+        "url": "git+https://github.com/KhaledSaeed18/nodejs-backend-caching.git"
     }
 }

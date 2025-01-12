@@ -21,7 +21,7 @@ To set up the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/node-cache.git
+   git clone https://github.com/KhaledSaeed18/nodejs-backend-caching.git
    cd node-cache
    ```
 
