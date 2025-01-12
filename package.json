@@ -1,0 +1,33 @@
+{
+    "name": "node-cache",
+    "version": "1.0.0",
+    "description": "A lightweight and efficient caching solution for Node.js",
+    "main": "dist/server.js",
+    "author": "Khaled Saeed",
+    "keywords": [
+        "cache",
+        "node",
+        "express",
+        "memory-cache"
+    ],
+    "scripts": {
+        "start": "node dist/server.js",
+        "dev": "nodemon src/server.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "node-cache": "^5.1.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "@types/node": "^20.4.2",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yourusername/node-cache.git"
+    }
+}
