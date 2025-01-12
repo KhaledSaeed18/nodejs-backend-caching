@@ -30,6 +30,8 @@ router.get('/users', (req, res) => {
 router.post('/users', (req, res) => {
     try {
         const newUser = req.body;
+
+        console.log('body', req.body);
         
         // Add validation if needed
         if (!newUser.name || !newUser.email) {
@@ -44,6 +46,7 @@ router.post('/users', (req, res) => {
         
         res.status(201).json(newUser);
     } catch (error) {
+        console.error(error);
         res.status(500).json({ error: 'Failed to create user' });
     }
 });

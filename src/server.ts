@@ -7,6 +7,9 @@ import { router } from './routes';
 // Create an instance of an Express application
 const app = express();
 
+// Enable JSON request body parsing
+app.use(express.json());
+
 // Define the port number the server will listen on
 const PORT = 3000;
 

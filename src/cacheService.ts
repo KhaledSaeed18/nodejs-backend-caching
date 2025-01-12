@@ -32,3 +32,7 @@ export const getOrSetCache = <T>(key: string, cb: CacheCallback<T>): T => {
     // Return the result, either from the cache or from the callback function
     return result;
 };
+
+export const deleteCache = (key: string): void => {
+    cache.del(key);
+};
